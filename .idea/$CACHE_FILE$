@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/RunaboutReact/RunaboutLib_Kotlin" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/RunaboutReact/android" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/kotlin-examples/gradle/js-tests/jest" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/runabout" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>

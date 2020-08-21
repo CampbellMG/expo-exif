@@ -1,0 +1,76 @@
+{
+  "image": {
+    "Orientation": 6,
+    "ExposureTime": 0.04,
+    "SensingMethod": 2,
+    "ExifOffset": 86,
+    "GPSInfo": 568
+  },
+  "thumbnail": {},
+  "exif": {
+    "ExposureTime": 0.04,
+    "FNumber": 1.8,
+    "ExposureProgram": 2,
+    "ISO": 40,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [
+        48,
+        50,
+        51,
+        50
+      ]
+    },
+    "DateTimeOriginal": "2020:08:21 17:31:37",
+    "CreateDate": "2020:08:21 17:31:37",
+    "ShutterSpeedValue": 4.647,
+    "ApertureValue": 1.696,
+    "BrightnessValue": 2.938,
+    "ExposureCompensation": 0,
+    "MeteringMode": 5,
+    "Flash": 24,
+    "FocalLength": 3.99,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ColorSpace": 65535,
+    "ExifImageWidth": 4032,
+    "ExifImageHeight": 3024,
+    "SensingMethod": 2,
+    "SceneType": {
+      "type": "Buffer",
+      "data": [
+        49
+      ]
+    },
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "LensInfo": [
+      3.99,
+      3.99,
+      1.8,
+      1.8
+    ],
+    "LensMake": "Apple",
+    "LensModel": "iPhone 7 back camera 3.99mm f/1.8"
+  },
+  "gps": {
+    "GPSLatitudeRef": "S",
+    "GPSLatitude": [
+      33,
+      43,
+      56.11
+    ],
+    "GPSLongitudeRef": "E",
+    "GPSLongitude": [
+      150,
+      56,
+      45.45
+    ]
+  },
+  "interoperability": {},
+  "makernote": {}
+}

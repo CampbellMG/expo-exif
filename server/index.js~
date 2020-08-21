@@ -1,0 +1,41 @@
+const http = require("http");
+const path = require("path");
+const fs = require("fs");
+const express = require("express");
+const multer = require("multer");
+const exif = require("exif").ExifImage;
+
+const app = express();
+const httpServer = http.createServer(app);
+const upload = multer({dest: __dirname + "/uploads"});
+
+const PORT = process.env.PORT || 3000;
+
+httpServer.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
+
+app.post("/", upload.single("file"), (req, res) => {
+	const tempPath = req.file.path;
+	const image  = __dirname + "./uploads/image.jpg";
+	const targetPath = path.join(image);
+
+	fs.rename(tempPath, targetPath, err => {
+		if (err) {
+		    res .status(500)
+			.contentType("text/plain")
+			.end("Oops! Something went wrong!");
+		    return
+		}
+
+		res .status(200)
+		    .contentType("text/plain")
+		    .end("File uploaded!");
+	});
+
+	new exif({image}), (error, data) -> {
+		if(error){
+			console.log(error);
+		}else {
+			fs.writeFile(data, __dirname + "/uploads/exif.txt", "utf-8");
+		}
+	});
+});
