@@ -50,19 +50,19 @@ As an added benefit- creating a repro may help you identify the source of the bu
 
 ### Environment
 
-  Expo CLI 3.24.2 environment info:
-    System:
-      OS: Windows 10 10.0.18363
-    Binaries:
-      Node: 12.13.1 - C:\Program Files\nodejs\node.EXE
-      npm: 6.9.0 - C:\Program Files\nodejs\npm.CMD
-    npmPackages:
-      expo: ~38.0.8 => 38.0.8
-      react: ~16.11.0 => 16.11.0
-      react-dom: ~16.11.0 => 16.11.0
-      react-native: https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz => 0.62.2
-    "@react-navigation/native": "^5.7.3",
-    "@react-navigation/stack": "^5.9.0",
+      Expo CLI 3.24.2 environment info:
+        System:
+          OS: Windows 10 10.0.18363
+        Binaries:
+          Node: 12.13.1 - C:\Program Files\nodejs\node.EXE
+          npm: 6.9.0 - C:\Program Files\nodejs\npm.CMD
+        npmPackages:
+          expo: ~38.0.8 => 38.0.8
+          react: ~16.11.0 => 16.11.0
+          react-dom: ~16.11.0 => 16.11.0
+          react-native: https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz => 0.62.2
+        "@react-navigation/native": "^5.7.3",
+        "@react-navigation/stack": "^5.9.0",
 
 
 I know this is tedious to reproduce so I appreciate anyone that has made it this far. I am at a complete loss on how to proceed from here so please let me know if there is any more information I can provide or anything I can assist with. 
