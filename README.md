@@ -1,3 +1,7 @@
+This can be closed, the issue only occurred when running an old version of the Expo client and seems to be related to this issue: https://github.com/facebook/react-native/issues/29021
+
+---
+
 This repo demonstrates an issue in React native currently raised in: 
  - [React Native](https://github.com/facebook/react-native/issues/29756)
  - [React Navigation](https://github.com/react-navigation/react-navigation/issues/8765)
